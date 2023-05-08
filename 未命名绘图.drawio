@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T08:21:32.577Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Y3DeljwB2EBR-vzEwjCB" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T08:22:06.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="yBDULOzc5C1MZYJJFziL" version="21.2.9" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="2534" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1887,6 +1887,9 @@
             <mxPoint x="-150" y="1310" as="sourcePoint" />
             <mxPoint x="130" y="1395" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="WfgLicFwoCLRD7SB5nkz-46" value="一个样本应该只会存在一条标志物信息？" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="920" width="240" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
