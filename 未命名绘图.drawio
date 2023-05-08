@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T07:04:41.549Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="yGq1HlEszO5iHtIe6m28" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T08:01:29.750Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="FeLNOir-HFv_I6pEFKUb" version="21.2.9" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="2534" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="RT6lVRiGIj_gCMxOsUKm-34" value="" style="shape=card;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="1050" width="1440" height="800" as="geometry" />
+          <mxGeometry x="630" y="1050" width="1440" height="680" as="geometry" />
         </mxCell>
         <mxCell id="0mvWHtfy37eWZjp-saQm-234" value="" style="shape=card;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="820" y="400" width="900" height="240" as="geometry" />
@@ -1098,8 +1098,8 @@
             <mxPoint x="370" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0mvWHtfy37eWZjp-saQm-385" value="体或胚系编译" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="800" y="1090" width="320" height="660" as="geometry">
+        <mxCell id="0mvWHtfy37eWZjp-saQm-385" value="体或胚系变异" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="1090" width="320" height="630" as="geometry">
             <mxRectangle x="840" y="50" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1111,7 +1111,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0mvWHtfy37eWZjp-saQm-388" value="internal_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" parent="0mvWHtfy37eWZjp-saQm-386" vertex="1">
+        <mxCell id="0mvWHtfy37eWZjp-saQm-388" value="mutation_internal_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" parent="0mvWHtfy37eWZjp-saQm-386" vertex="1">
           <mxGeometry x="30" width="290" height="30" as="geometry">
             <mxRectangle width="290" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1345,7 +1345,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RT6lVRiGIj_gCMxOsUKm-56" value="clinvar (临床意义)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="RT6lVRiGIj_gCMxOsUKm-54">
+        <mxCell id="RT6lVRiGIj_gCMxOsUKm-56" value="clinvar (ncbi 临床意义)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="RT6lVRiGIj_gCMxOsUKm-54">
           <mxGeometry x="30" width="290" height="30" as="geometry">
             <mxRectangle width="290" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1363,19 +1363,6 @@
             <mxRectangle width="290" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RT6lVRiGIj_gCMxOsUKm-51" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="0mvWHtfy37eWZjp-saQm-385">
-          <mxGeometry y="630" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RT6lVRiGIj_gCMxOsUKm-52" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="RT6lVRiGIj_gCMxOsUKm-51">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RT6lVRiGIj_gCMxOsUKm-53" value="transcript(转录本)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="RT6lVRiGIj_gCMxOsUKm-51">
-          <mxGeometry x="30" width="290" height="30" as="geometry">
-            <mxRectangle width="290" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="0mvWHtfy37eWZjp-saQm-416" value="拷贝数变异" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
           <mxGeometry x="1260" y="1090" width="310" height="335" as="geometry">
             <mxRectangle x="840" y="50" width="90" height="30" as="alternateBounds" />
@@ -1389,7 +1376,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0mvWHtfy37eWZjp-saQm-419" value="sample_internal_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" parent="0mvWHtfy37eWZjp-saQm-417" vertex="1">
+        <mxCell id="0mvWHtfy37eWZjp-saQm-419" value="internal_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" parent="0mvWHtfy37eWZjp-saQm-417" vertex="1">
           <mxGeometry x="30" width="280" height="30" as="geometry">
             <mxRectangle width="280" height="30" as="alternateBounds" />
           </mxGeometry>
