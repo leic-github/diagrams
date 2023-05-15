@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T08:21:24.716Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="XuLzwhnu_NefuFq1fRAE" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-15T08:22:08.956Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="gQTVhw1He1F098pOOiVo" version="21.2.9" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="2774" dy="1558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -508,7 +508,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0mvWHtfy37eWZjp-saQm-86" value="癌症研究项目" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-101" y="60" width="311" height="300" as="geometry">
+          <mxGeometry x="-101" y="60" width="311" height="330" as="geometry">
             <mxRectangle x="840" y="50" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -598,7 +598,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0mvWHtfy37eWZjp-saQm-107" value="status（项目的状态：0-公开 1-私有 2-待审核 ）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="0mvWHtfy37eWZjp-saQm-105" vertex="1">
+        <mxCell id="0mvWHtfy37eWZjp-saQm-107" value="status（项目的状态：0-公开 1-私有 ）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="0mvWHtfy37eWZjp-saQm-105" vertex="1">
           <mxGeometry x="30" width="281" height="30" as="geometry">
             <mxRectangle width="281" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -625,6 +625,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WfgLicFwoCLRD7SB5nkz-238" value="groups（可以将项目划分到一个或多个组中 ）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="WfgLicFwoCLRD7SB5nkz-236" vertex="1">
+          <mxGeometry x="30" width="281" height="30" as="geometry">
+            <mxRectangle width="281" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RU_ADvYYVfCG9dk8-aAt-7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="0mvWHtfy37eWZjp-saQm-86">
+          <mxGeometry y="300" width="311" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RU_ADvYYVfCG9dk8-aAt-8" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="RU_ADvYYVfCG9dk8-aAt-7">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RU_ADvYYVfCG9dk8-aAt-9" value="valid（审核表示 0-待审核 1-审核通过 ）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="RU_ADvYYVfCG9dk8-aAt-7">
           <mxGeometry x="30" width="281" height="30" as="geometry">
             <mxRectangle width="281" height="30" as="alternateBounds" />
           </mxGeometry>
