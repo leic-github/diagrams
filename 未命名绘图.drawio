@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T09:31:47.163Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="jjykEMg-NUfcXFVAnZwa" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-16T09:05:58.813Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ERqxARvRwegMOwmWx6ws" version="21.3.0" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="2774" dy="1614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2134" dy="1288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -776,7 +776,7 @@
         <mxCell id="0mvWHtfy37eWZjp-saQm-235" value="记录患者的临床信息：例如 新辅、手术、一线、二线、免疫组化结果等等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="840" y="400" width="400" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="0mvWHtfy37eWZjp-saQm-285" value="血液检测结果" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
+        <mxCell id="0mvWHtfy37eWZjp-saQm-285" value="血液检测结果（记录一次）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
           <mxGeometry x="890" y="700" width="300" height="260" as="geometry">
             <mxRectangle x="840" y="50" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -885,10 +885,10 @@
             <mxRectangle width="270" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0mvWHtfy37eWZjp-saQm-310" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.996;exitY=0.833;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="0mvWHtfy37eWZjp-saQm-144" target="0mvWHtfy37eWZjp-saQm-286" edge="1">
+        <mxCell id="0mvWHtfy37eWZjp-saQm-310" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;exitX=0.996;exitY=0.833;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="0mvWHtfy37eWZjp-saQm-144" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="670" y="640" as="sourcePoint" />
-            <mxPoint x="870" y="640" as="targetPoint" />
+            <mxPoint x="880" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0mvWHtfy37eWZjp-saQm-311" value="样本信息" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
